@@ -1,6 +1,6 @@
 {% set name = "plumbum" %}
-{% set version = "1.6.4" %}
-{% set sha256 = "9147b410ba367129c790a70f6024ccc6470d0e0e36d253f5e014ff23c8fa01f7" %}
+{% set version = "1.6.5" %}
+{% set sha256 = "d8abb059bb62beb6c99db08d3598167abaeeab53eaf218f91e74bae471a24bee" %}
 
 package:
   name: {{ name|lower }}
@@ -28,6 +28,7 @@ test:
   imports:
     - plumbum
     - plumbum.cli
+    - plumbum.cli.image
     - plumbum.colorlib
     - plumbum.commands
     - plumbum.fs
