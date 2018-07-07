@@ -18,14 +18,15 @@ Interface (CLI) application toolkit, and a color library.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/plumbum-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/plumbum-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/plumbum-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/plumbum-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/plumbum-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/plumbum-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/plumbum-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/plumbum-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/plumbum/badges/version.svg)](https://anaconda.org/conda-forge/plumbum)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/plumbum/badges/downloads.svg)](https://anaconda.org/conda-forge/plumbum)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-plumbum-green.svg)](https://anaconda.org/conda-forge/plumbum) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/plumbum.svg)](https://anaconda.org/conda-forge/plumbum) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/plumbum.svg)](https://anaconda.org/conda-forge/plumbum) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/plumbum.svg)](https://anaconda.org/conda-forge/plumbum) |
 
 Installing plumbum
 ==================
