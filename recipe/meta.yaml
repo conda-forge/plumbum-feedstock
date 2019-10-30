@@ -1,6 +1,6 @@
 {% set name = "plumbum" %}
-{% set version = "1.6.7" %}
-{% set sha256 = "d143f079bfb60b11e9bec09a49695ce2e55ce5ca0246877bdb0818ab7c7fc312" %}
+{% set version = "1.6.8" %}
+{% set sha256 = "8571f2f9657e00dc22549d9e92db3fdec5674bf509fe60c5c9b4081fd8f6ab92" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
