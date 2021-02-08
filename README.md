@@ -5,9 +5,13 @@ Home: https://plumbum.readthedocs.io
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plumbum-feedstock/blob/master/LICENSE.txt)
 
 Summary: Plumbum: shell combinators library
+
+Development: https://github.com/tomerfiliba/plumbum
+
+Documentation: https://plumbum.readthedocs.io/
 
 Apart from shell-like syntax and handy shortcuts, the library provides local and
 remote command execution (over SSH), local and remote file-system paths, easy
