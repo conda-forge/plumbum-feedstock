@@ -19,10 +19,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=2.7
+    - setuptools_scm
     - setuptools
   run:
-    - python
+    - python >=2.7
     - setuptools
     - paramiko
 
