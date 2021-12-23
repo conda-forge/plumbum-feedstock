@@ -1,6 +1,6 @@
 {% set name = "plumbum" %}
-{% set version = "1.7.1" %}
-{% set sha256 = "3c0ac8c4ee57b2adddc82909d3c738a62ef5f77faf24ec7cb6f0a117e1679740" %}
+{% set version = "1.7.2" %}
+{% set sha256 = "0d1bf908076bbd0484d16412479cb97d6843069ee19f99e267e11dd980040523" %}
 
 package:
   name: {{ name|lower }}
