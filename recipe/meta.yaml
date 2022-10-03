@@ -1,30 +1,28 @@
 {% set name = "plumbum" %}
 {% set version = "1.7.2" %}
-{% set sha256 = "0d1bf908076bbd0484d16412479cb97d6843069ee19f99e267e11dd980040523" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 0d1bf908076bbd0484d16412479cb97d6843069ee19f99e267e11dd980040523
 
 build:
   noarch: python
-  number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
     - python >=2.7
-    - setuptools_scm
-    - setuptools
+    - setuptools_scm >=3.4.3
+    - setuptools >=42
   run:
     - python >=2.7
-    - setuptools
+    - pywin32-on-windows
     - paramiko
 
 test:
@@ -37,6 +35,10 @@ test:
     - plumbum.fs
     - plumbum.machines
     - plumbum.path
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://plumbum.readthedocs.io
