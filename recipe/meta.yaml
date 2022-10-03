@@ -23,6 +23,7 @@ requirements:
   run:
     - python >=2.7
     - pywin32-on-windows
+    - paramiko
 
 test:
   imports:
