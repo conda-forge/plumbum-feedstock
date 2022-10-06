@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python >=2.7
+    - python >=3.6
     - setuptools_scm >=3.4.3
     - setuptools >=42
   run:
-    - python >=2.7
+    - python >=3.6
     - pywin32-on-windows
     - paramiko
 
