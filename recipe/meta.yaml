@@ -18,8 +18,8 @@ requirements:
   host:
     - pip
     - python >=3.6
-    - setuptools_scm >=3.4.3
-    - setuptools >=42
+    - hatchling
+    - hatch-vcs
   run:
     - python >=3.6
     - pywin32-on-windows
