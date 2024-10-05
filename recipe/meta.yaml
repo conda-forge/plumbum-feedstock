@@ -24,7 +24,7 @@ requirements:
     - python >=3.8
     - pywin32-on-windows
     - paramiko
-    - imortlib_resources
+    - importlib_resources
 
 test:
   imports:
