@@ -17,13 +17,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.6
+    - python >=3.8
     - pywin32-on-windows
     - paramiko
+    - imortlib_resources
 
 test:
   imports:
