@@ -1,5 +1,5 @@
 {% set name = "plumbum" %}
-{% set version = "1.8.3" %}
+{% set version = "1.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6092c85ab970b7a7a9d5d85c75200bc93be82b33c9bdf640ffa87d2d7c8709f0
+  sha256: e640062b72642c3873bd5bdc3effed75ba4d3c70ef6b6a7b907357a84d909219
 
 build:
   noarch: python
