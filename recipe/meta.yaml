@@ -45,7 +45,8 @@ about:
   home: https://plumbum.readthedocs.io
   license: MIT
   license_file: LICENSE
-  summary: 'Plumbum: shell combinators library'
+  summary: |
+    Plumbum: shell combinators library
 
   description: |
     Apart from shell-like syntax and handy shortcuts, the library provides local and
