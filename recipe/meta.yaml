@@ -1,12 +1,11 @@
-{% set name = "plumbum" %}
 {% set version = "1.9.0" %}
 
 package:
-  name: {{ name|lower }}
+  name: plumbum
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/plumbum/plumbum-{{ version }}.tar.gz
   sha256: e640062b72642c3873bd5bdc3effed75ba4d3c70ef6b6a7b907357a84d909219
 
 build:
