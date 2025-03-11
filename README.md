@@ -3,7 +3,7 @@ About plumbum-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plumbum-feedstock/blob/main/LICENSE.txt)
 
-Home: https://plumbum.readthedocs.io
+Home: https://plumbum.readthedocs.io/
 
 Package license: MIT
 
@@ -17,7 +17,6 @@ Apart from shell-like syntax and handy shortcuts, the library provides local and
 remote command execution (over SSH), local and remote file-system paths, easy
 working-directory and environment manipulation, a programmatic Command-Line
 Interface (CLI) application toolkit, and a color library.
-
 
 Current build status
 ====================
