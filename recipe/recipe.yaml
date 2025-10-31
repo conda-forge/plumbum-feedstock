@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.9.0
+  version: "1.10.0"
 
 package:
   name: plumbum
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/plumbum/plumbum-${{ version }}.tar.gz
-  sha256: e640062b72642c3873bd5bdc3effed75ba4d3c70ef6b6a7b907357a84d909219
+  sha256: f8cbf0ecec0b73ff4e349398b65112a9e3f9300e7dc019001217dcc148d5c97c
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
